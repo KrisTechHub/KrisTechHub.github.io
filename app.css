@@ -116,6 +116,7 @@ input {
     font-size: 1.8rem;
     border: none;
     box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 05);
+    text-align: center;
 }
 
 #finalScore {
@@ -126,4 +127,9 @@ input {
 
 input::placeholder {
     opacity: 0.8;
+    text-align: center;
+}
+
+input::first-letter {
+    text-align: center;
 }
