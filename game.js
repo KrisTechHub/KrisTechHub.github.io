@@ -38,9 +38,11 @@ let questions = [
       }
 ];
 
+
 // CONSTANTS //
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = questions.length;
+
 
 startGame = () => {
     questionCounter = 0;
@@ -49,12 +51,13 @@ startGame = () => {
     getNewQuestion();
 };
 
-getNewQuestion = () => {
 
+getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem("mostRecentScore", score);
         //go to the end page
         return window.location.assign("/end.html");
-    }
+    };
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -73,6 +76,7 @@ getNewQuestion = () => {
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
+
 
 choices.forEach(choice => {
     choice.addEventListener('click', (e) => {
@@ -96,9 +100,11 @@ choices.forEach(choice => {
     });
 });
 
+
 incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
-}
+};
+
 
 startGame();
