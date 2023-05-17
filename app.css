@@ -46,6 +46,7 @@ h3 {
     align-items: center;  /* vertical */
     max-width: 80rem; /* 800px */
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .container > * {
