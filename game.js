@@ -39,13 +39,10 @@ let questions = [
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = questions.length;
 
-console.log(MAX_QUESTIONS);
-
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [ ...questions] //spread operator
-    console.log(availableQuestions);
     getNewQuestion();
 };
 
@@ -75,9 +72,16 @@ choices.forEach(choice => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedChoie = e.target;
-        const selectedAnswer = selectedChoie.dataset["number"];
-        getNewQuestion();
+        const selectedChoice = e.target; 
+        const selectedAnswer = selectedChoice.dataset["number"];
+
+        const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+ 
+        selectedChoice.parentElement.classList.add(classToApply);
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 2000);
     });
 })
 
