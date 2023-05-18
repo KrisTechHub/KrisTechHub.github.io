@@ -93,7 +93,7 @@ choices.forEach(choice => {
         }
  
         selectedChoice.parentElement.classList.add(classToApply);
-        setTimeout( () => {
+        setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 500);
