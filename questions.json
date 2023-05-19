@@ -1,27 +1,85 @@
-[
+{
+  "response_code":0,
+  "results":[
     {
-      "question": "Inside which HTML element do we put the JavaScript??",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"When is our anniversary?",
+      "correct_answer":"April 20th",
+      "incorrect_answers": ["Apil 10","July 7","August 3"]
     },
     {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
-      "answer": 3
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"What doughnut did we eat in Cebu?",
+      "correct_answer":"J.CO Dougnut",
+      "incorrect_answers": ["Krispy Kreme Dougnut","Starbucks","Ordinary Dougnut"]
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
-      "answer": 4
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"When did we met in real?",
+      "correct_answer":"July 7",
+      "incorrect_answers": ["July 5","July 8","July 4"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"When is my flight to you if visa is approved?",
+      "correct_answer":"June 29",
+      "incorrect_answers": ["June 30","June 28","July 1"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"What is my favorite food?",
+      "correct_answer":"Beef steak",
+      "incorrect_answers": ["Beef Jerky","Doughnut","Pork"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"When is my birthday?",
+      "correct_answer":"February 2",
+      "incorrect_answers": ["February 12", "February 3", "February 1"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"Where are we going in Europe?",
+      "correct_answer":"Switzerland",
+      "incorrect_answers": ["Austria","Sweden","Italy"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"what is my dream?",
+      "correct_answer":"Business Woman",
+      "incorrect_answers": ["IT worker","Data Analyst","Baker"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"Why don't I like you as a scooter-driver?",
+      "correct_answer":"I'm a reckless driver",
+      "incorrect_answers": ["Road is dangerous","I will see women","It's hot in the Philippines"]
+    },
+    {
+      "category":"Love Life",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"How tall am I?",
+      "correct_answer":"4'11 ft",
+      "incorrect_answers": ["5 ft","5'1 ft","4'10 ft"]
     }
   ]
-  
+}
