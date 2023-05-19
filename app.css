@@ -133,3 +133,7 @@ input::placeholder {
 input::first-letter {
     text-align: center;
 }
+
+#highScoreBtn {
+    display: none;    
+}
