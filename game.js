@@ -12,28 +12,30 @@ let availableQuestions = [];
 let questions = [];
 
 
-fetch("questions.json")
-    .then(res => {
+fetch('questions.json')
+    .then((res) => {
         return res.json();
     })
-    .then(loadedQuestions => {
+    .then((loadedQuestions) => {
         questions = loadedQuestions;
         startGame();
     })
-    .catch(err => {
+    .catch((err) => {
         console.error(err);
     });
 
 // CONSTANTS //
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = questions.length;
+const MAX_QUESTIONS = 3;
+
+
 
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [ ...questions] //spread operator
-    getNewQuestion();
+    getNewQuestion();console.log(MAX_QUESTIONS);
 };
 
 
