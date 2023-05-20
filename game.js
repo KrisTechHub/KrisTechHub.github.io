@@ -15,7 +15,7 @@ let availableQuestions = [];
 let questions = [];
 
 
-fetch('questions.json')
+fetch('famquestion.json')
     .then((res) => {
         return res.json();
     })

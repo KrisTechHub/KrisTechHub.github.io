@@ -1,0 +1,85 @@
+{
+    "response_code":0,
+    "results":[
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"What is itay's full name?",
+        "correct_answer":"Pantalion Odivelas Macawile",
+        "incorrect_answers": ["Tayo Odivelas Macawile","Pantalion Araneta Macawile","Pantalion Macawile"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"When is Kuya Eric's birthday?",
+        "correct_answer":"January 15th",
+        "incorrect_answers": ["January 16th","January 17th","January 19th"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"When will ate come home?",
+        "correct_answer":"May 31",
+        "incorrect_answers": ["May 30","June 1","June 2"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"What is mama's favorite color?",
+        "correct_answer":"Green",
+        "incorrect_answers": ["Yellow","Red","Pink"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"What is papa's favorite drink?",
+        "correct_answer":"Red Horse",
+        "incorrect_answers": ["Water","Coke","Wine"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"When inay's death anniversary?",
+        "correct_answer":"November 27",
+        "incorrect_answers": ["November 28", "November 29", "November 26"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"In what year did ate Rinalyn and gwapo Eric got married?",
+        "correct_answer":"2014",
+        "incorrect_answers": ["2013","2012","2015"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"What career is most aspired in the family?",
+        "correct_answer":"IT",
+        "incorrect_answers": ["Farmer","Business woman/man","Tambay"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"What is my boyfriend's name?",
+        "correct_answer":"Tighlat",
+        "incorrect_answers": ["Tiglat","Tiggy","Tiger"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"How old are Renz and Kian?",
+        "correct_answer":"17 and 14 respectively",
+        "incorrect_answers": ["18 and 14 respectively","17 and 15 respectively","18 and 15 respectively"]
+      }
+    ]
+  }

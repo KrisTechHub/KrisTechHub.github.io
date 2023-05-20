@@ -53,7 +53,7 @@
       "category":"Love Life",
       "type":"multiple",
       "difficulty":"easy",
-      "question":"Where are we going in Europe?",
+      "question":"Which part of Europe am I most excited to visit?",
       "correct_answer":"Switzerland",
       "incorrect_answers": ["Austria","Sweden","Italy"]
     },
