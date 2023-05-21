@@ -80,6 +80,14 @@
         "question":"How old are Renz and Kian?",
         "correct_answer":"17 and 14 respectively",
         "incorrect_answers": ["18 and 14 respectively","17 and 15 respectively","18 and 15 respectively"]
+      },
+      {
+        "category":"Family",
+        "type":"multiple",
+        "difficulty":"easy",
+        "question":"How old are Renz and Kian?",
+        "correct_answer":"17 and 14 respectively",
+        "incorrect_answers": ["18 and 14 respectively","17 and 15 respectively","18 and 15 respectively"]
       }
     ]
   }
