@@ -12,7 +12,7 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || []; //make 
 
 username.addEventListener('keyup', (e) => {
     saveScoreBtn.disabled = !username.value;
-}); 
+});
 
 
 saveScore = (e) => {
@@ -28,7 +28,7 @@ saveScore = (e) => {
     finalScore.innerText = 0;
 
     //SAVE ONLY TOP 5 SCORES, REMOVE LOWER SCORES
-    highScores.sort((a,b) => {
+    highScores.sort((a, b) => {
         return b.score - a.score;
     });
 

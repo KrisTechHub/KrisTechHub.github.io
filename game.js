@@ -31,7 +31,7 @@ fetch('famquestion.json')
             answerChoices.splice(formattedQuestion.answer - 1, 0, loadedQuestion.correct_answer);
 
             answerChoices.forEach((choice, index) => {
-                formattedQuestion["choice" + (index+1)] = choice;
+                formattedQuestion["choice" + (index + 1)] = choice;
 
             });
             return formattedQuestion;
@@ -53,7 +53,7 @@ const MAX_QUESTIONS = 10;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [ ...questions] //spread operator
+    availableQuestions = [...questions] //spread operator
     getNewQuestion();
     game.classList.remove("hidden");
     loader.classList.add("hidden");
@@ -91,7 +91,7 @@ choices.forEach(choice => {
         if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedChoice = e.target; 
+        const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
         const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
@@ -99,7 +99,7 @@ choices.forEach(choice => {
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
         }
- 
+
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
